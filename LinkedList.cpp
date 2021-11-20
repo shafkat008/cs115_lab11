@@ -45,7 +45,7 @@ void LinkedList::insertItem(int item)
 {
   ListElement* currPtr = head;
   ListElement* prevPtr = NULL;
-  ListElement* newNodePtr;      //points to a new node
+  ListElement* newNodePtr;      // points to a new node
   
   while(currPtr != NULL && item > currPtr->datum)
   {
